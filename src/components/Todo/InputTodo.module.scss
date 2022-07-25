@@ -7,27 +7,30 @@
 }
 
 form{
-    background-color: red;
     width: 75%;
     position: relative;
 }
 
-input[type='text']{
+.input-list{
     left: 0;
     position: absolute;
-    background-color: blue;
     width: 100%;
     padding: 3px;
+    border: 2px solid orangered;
+    border-radius: 8px;
+    
+    &:focus {
+        border: 3px solid rgb(245, 118, 72);
+    }
 }
 
-input[type='submit']{
+.input-button{
     position: absolute;
-    right: -9px;
     z-index: 700;
-}
-
-
-.button{
     width: 55px;
-    right: -60px;
+    right: -8px;
+    border: none;
+    background-color: rgb(245,118,72);
+    border-radius:  0 8px 8px 0;
+    height: 28px;
 }
