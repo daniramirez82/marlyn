@@ -14,7 +14,7 @@ const Hero = () => {
             <div className={styles.gradient2}></div>
             <div className={styles.overlay}>
                 <div className={styles.content}>
-                <h1>Cuenta atrás:</h1>
+                <h1>Cuánto falta?:</h1>
                 <Counter finalDate={FINAL_DATE} />
                 </div>
             </div>
