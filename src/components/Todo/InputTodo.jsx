@@ -12,7 +12,7 @@ const InputTodo = ({addATask}) => {
     <div className={styles["input-wrapper"]}>
       
       <form action="" onSubmit={sendNewTask}>
-        <input className={styles['input-list']} value={task} onInput={(e)=> setTask(e.target.value)} type="text" placeholder="Todo with Dad???" />
+        <input className={styles['input-list']} value={task} onInput={(e)=> setTask(e.target.value)} type="text" placeholder="Que cosas quieres hacer?" />
         <input className = {styles['input-button']} disabled={!task} type="submit" value="ADD"/> 
         
       </form>

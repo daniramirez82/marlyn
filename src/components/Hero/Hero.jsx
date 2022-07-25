@@ -5,13 +5,11 @@ import styles from './Hero.module.scss';
 
 const Hero = () => {
 
-    const FINAL_DATE = new Date(2022, 9, 13);
+    const FINAL_DATE = new Date(2022, 7, 6);
 
     return (
         <div className={styles['wrapper-hero']}>
-            <video autoplay muted loop id="usa-video">
-                <source src="/video-usa.mp4" type="video/mp4"></source>
-            </video>
+            <img src="hearts.jpg" alt="hearts background" className={styles['bg-img']} />
             <div className={styles.gradient}></div>
             <div className={styles.gradient2}></div>
             <div className={styles.overlay}>
